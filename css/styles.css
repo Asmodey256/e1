@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+img {
+    float: left;
+    max-width: 300px;
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    background-color: #101010;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 2rem;
+}
+
+main, footer {
+    padding: 20px 100px;
+}
+
+footer {
+    clear: both;
+    height: 30px;
+    background-color: #101010;
+}
+.main-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-navigation a {
+    padding: 25px 15px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.main-navigation .active-link {
+    background-color: #2c2c2c;
+}
+
+.main-navigation a:hover{
+    background-color: #808080;
+    color: #101010;
+}
+
+.main-navigation a.active {
+    background-color: #2c2c2c;
+}
+
+.contacts a {
+    display: block;
+    margin: 4px 0;
+}
+
+.social {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url("../images/social_icons_v3.png") no-repeat;
+    background-size: 171px;
+}
+
+.vk {
+    background-position: 0 0;
+}
+
+.instagram {
+    background-position: -29.5px 0;
+}
+
+.telegram {
+    background-position: -59px 0;
+}
+
+.social_text {
+    padding-left: 5px;
+    font-size: 1.1rem;
+}
